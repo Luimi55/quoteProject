@@ -1,0 +1,34 @@
+p {
+    color: brown;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .column {
+    flex: 33.3%;
+  }
+
+  .row .column img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .download {
+      background-color: #1c87c9;
+        border: none;
+        width: 100%;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 2px 2px;
+        cursor: pointer;
+  }
+  .download:hover{
+    color: white;
+    background-color: #1977b1;
+  }
